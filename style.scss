@@ -1,0 +1,36 @@
+$primary-color: green;
+$secondary-color: orange;
+
+@mixin fancy-text {
+    font-style: italic;
+    font-family: cursive;
+}
+
+
+h1 {
+    @include fancy-text();
+    color: $primary-color;
+}
+
+p {
+    color: $secondary-color;
+    @include fancy-text();
+    font-size: 40px;
+}
+
+button {
+    
+    @extend p; 
+    background: $primary-color;
+}
+
+
+.sitemap {
+    border: 1px solid $primary-color;
+    li{
+        background: red;
+        a {
+            @include fancy-text();
+        }
+    }
+}

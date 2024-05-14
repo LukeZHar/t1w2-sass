@@ -1,0 +1,27 @@
+h1 {
+  font-style: italic;
+  font-family: cursive;
+  color: green;
+}
+
+p, button {
+  color: orange;
+  font-style: italic;
+  font-family: cursive;
+  font-size: 40px;
+}
+
+button {
+  background: green;
+}
+
+.sitemap {
+  border: 1px solid green;
+}
+.sitemap li {
+  background: red;
+}
+.sitemap li a {
+  font-style: italic;
+  font-family: cursive;
+}/*# sourceMappingURL=style.css.map */
